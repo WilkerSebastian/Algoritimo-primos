@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <thread>
+
 
 int main()
 {
@@ -10,21 +12,18 @@ int main()
     printf("Insira ultimo a ser procurado: ");
     scanf("%i", &ultimo);
 
+    printf("[");
+    
     for (int i = 2; i <= ultimo; i++)
     {
         if (verificar(i, primos))
         {
             primos.push_back(i);
+            printf("%i,",primos[primos.size() - 1]);
         }
         
     }
-    printf("[");
-    for (size_t i = 0; i < primos.size(); i++)
-    {
-        printf("%i,",primos[i]);
-    }
-    printf("\b]");
-    
+    printf("\b]");   
 
     return 0;
 }
