@@ -4,4 +4,4 @@ Este repositório é um fork de um projeto originalmente de meu amigo, que foi e
 
 IDE utilizada foi eclipse com jdk-11.
 
-<a href="https://github.com/LuizFXavier/Algoritimo-primos">repositório orinal</a>
+<a href="https://github.com/LuizFXavier/Algoritimo-primos">repositório original</a>
